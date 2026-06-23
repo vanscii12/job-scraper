@@ -30,7 +30,7 @@ LLM_API_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("GEMINI_API_KEY") 
 LLM_MODEL = "gemini"
 
 # --- Search Configuration ---
-CAREERS_FUTURE_SEARCH_QUERIES = ["quantitative researcher","quant research analyst","quantitative analyst","portfolio analytics","investment analytics","risk analytics","trading analyst","quant developer"]
+LINKEDIN_SEARCH_QUERIES = ["quantitative researcher","quant research analyst","quantitative analyst","portfolio analytics","investment analytics","risk analytics","trading analyst","quant developer"]
 LINKEDIN_LOCATION = "Bay Area"
 LINKEDIN_GEO_ID = 90000084      # Singapore: 102454443, Dubai: 100205264
 LINKEDIN_JOB_TYPE = "I" # F=Full-time, C=Contract, P=Part-time, T=Temporary, I=Internship
