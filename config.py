@@ -27,7 +27,7 @@ LLM_API_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("GEMINI_API_KEY") 
 # --- LLM Settings ---
 # Use any model supported by LiteLLM (gemini, openai/gpt-4o-mini, groq/llama-3.3-70b-versatile)
 # Full list of supported models & naming: https://docs.litellm.ai/docs/providers
-LLM_MODEL = "deepseek"
+LLM_MODEL = "Deepseek"
 
 # --- Search Configuration ---
 CAREERS_FUTURE_SEARCH_QUERIES = ["quantitative researcher","quant research analyst","quantitative analyst","portfolio analytics","investment analytics","risk analytics","trading analyst","quant developer"]
