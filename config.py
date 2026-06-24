@@ -31,8 +31,8 @@ LLM_MODEL = "gemini"
 
 # --- Search Configuration ---
 LINKEDIN_SEARCH_QUERIES = ["quantitative researcher","quant research analyst","quantitative analyst","portfolio analytics","investment analytics","risk analytics","trading analyst","quant developer"]
-LINKEDIN_LOCATION = "Bay Area"
-LINKEDIN_GEO_ID = 90000084      # Singapore: 102454443, Dubai: 100205264
+LINKEDIN_LOCATION = ["Bay Area","Chicago"]
+LINKEDIN_GEO_ID = [90000084,90000014]      # Singapore: 102454443, Dubai: 100205264
 LINKEDIN_JOB_TYPE = "I" # F=Full-time, C=Contract, P=Part-time, T=Temporary, I=Internship
 LINKEDIN_JOB_POSTING_DATE = "r2592000" # r86400=Past 24h, r604800=Past week
 LINKEDIN_F_WT = 1 # 1=Onsite, 2=Remote, 3=Hybrid
